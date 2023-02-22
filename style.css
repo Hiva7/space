@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://free4kwallpapers.com/uploads/originals/2021/09/30/koi-moon-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.wrapper{
+width: 80%;
+height: 80vh;
+border: 10px solid rgba(157, 150, 150, 0.6);
+margin: auto;
+margin-top: 10vh;
+border-radius: 30px;
+    background-image: url(https://free4kwallpapers.com/uploads/originals/2021/09/30/koi-moon-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+
+}
+.bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.menu > ul{
+display: flex;
+}
+.menu > ul > a {
+    text-decoration: none;
+    color: aliceblue;
+}
+li{
+    list-style-type: none;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.logo > h1 {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to left, red, blue);
+}
+li:hover{
+    background-color: aqua;
+    color: black;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container-right{
+    width:35%;
+    height: 60vh;
+}
+.container-left{
+    width:40%;
+    height: 60vh;
+}.container-mid{
+    font-family: none;
+    margin-top: 24%;
+    width:20%;
+    height: 25vh;
+}
+.images-of-starship{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    justify-content: space-around;
+
+}
+
+.ships{
+    width: 170px;
+    object-fit: cover;
+    height: 100px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    animation: border 5s infinite ease-in-out;
+}
+@keyframes border {
+    0%{
+        border:2px solid  rgb(103, 196, 206);
+    }
+    25%{
+        border:2px solid rgb(184, 83, 155);
+    }
+    50%{
+        border:2px solid rgb(83, 106, 222);
+    }
+    75%{
+        border:2px solid rgb(87, 169, 89);
+    }
+   100%{
+    border:2px solid rgb(103, 196, 206);
+    }
+    
+}
+.click > h1{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: thin;
+}
+.input{
+    text-align: center;
+}
+.button{
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration:0.1s ;
+    transition-delay:0.1s ;
+    animation: background 5s infinite ease-in-out;
+    border: 0px;
+    font-weight: bold;
+}
+.button:hover{
+width: 150px;
+height: 50px;
+}
+@keyframes background {
+    0%{
+        background-color: rgb(103, 196, 206);
+    }
+    25%{
+        background-color: rgb(184, 83, 155);
+    }
+    50%{
+        background-color: rgb(83, 106, 222);
+    }
+    75%{
+        background-color: rgb(87, 169, 89);
+    }
+   100%{
+    background-color: rgb(103, 196, 206);
+    }
+    
+}
+h5{
+    font-family: sans-serif;
+    font-size: 10px;
+    color: gray;
+    text-align: center;
+    margin-top: 30px;
+}
+h4{
+text-align: center;
+}
+p{
+    text-align: center;
+    color: rgb(171, 168, 168);
+    font-size: 10px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+.contact{
+    color: white;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.fa-brands{
+    width: 20px;
+}
+h6{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
+.outer-spce-images{
+    margin-left:85px;
+}
+.outer-space{
+    margin-top: 10px;
+    width: 180px;
+    height: 80px;
+    object-fit: cover;
+    border: 2px solid gray;
+    border-radius: 10px ;
+    animation: border 5s infinite ease-in-out;
+}
+@keyframes border {
+    0%{
+        border:2px solid  rgb(103, 196, 206);
+    }
+    25%{
+        border:2px solid rgb(184, 83, 155);
+    }
+    50%{
+        border:2px solid rgb(83, 106, 222);
+    }
+    75%{
+        border:2px solid rgb(87, 169, 89);
+    }
+   100%{
+    border:2px solid rgb(103, 196, 206);
+    }
+    
+}
